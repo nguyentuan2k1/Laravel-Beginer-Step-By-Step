@@ -31,8 +31,8 @@
             <td class="th-class"> {{$todo->created_at}} </td>
             <td class="th-class"> {{$todo->updated_at}} </td>
             <td class="th-class">
-                <a  href=" /edit/{{$todo->id}}"> <img src="{{asset('storage/edit.png')}}"> </a>
-                <a  href=" /delete/{{$todo->id}}"> <img src="{{asset('storage/remove.png')}}"> </a>
+                <a  href=" /edit/{{$todo->id}}"> <button>Edit</button> </a>
+                <a  href=" /delete/{{$todo->id}}"> <button >Delete</button> </a>
             </td>
         </tr>
     @endforeach
